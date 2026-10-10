@@ -1,0 +1,5 @@
+# Tested with Python 3.8 and Java 11 (Spark needs a JVM). The course grader uses
+# Python 3.6 / Spark 3.1.2 / xgboost 0.72; the code works with both xgboost versions.
+pyspark==3.1.2
+xgboost>=0.72
+numpy
